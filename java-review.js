@@ -52,8 +52,20 @@ if (question4 === 20) {
   console.log('The user answered incorrectly with ' + question4);
   }
 
-alert('Congratulations, you got ' + yes + ' out of 4 questions correct! Nice job!');
+var question5 = prompt('Is my favorite color red? Yes or No?').toLowerCase();
+
+if (question5 === 'yes' || question5 === 'y' || question5 === 'ye' || question5 === 'yeah') {
+  alert('Correctomundo')
+  console.log('The user answered correctly with ' + question5);
+  yes +=1
+} else {
+  alert('Woops! You were wrong!');
+  console.log('The user answered incorrectly with ' + question5);
+}
+
+alert('Congratulations, you got ' + yes + ' out of 5 questions correct! Nice job!');
 alert('The correct answer for question 1 was yes! I did grow up in Washington.');
 alert('The answer for question 2 was yes! I love drumming and I have been drumming for 7 years!');
 alert('Question 3 is an obvious yes! Who does not love computer games?');
 alert('The correct answer for question 4 was 20!');
+alert('The correct answer for question 5 was red!');

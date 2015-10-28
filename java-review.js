@@ -52,7 +52,7 @@ if (question4 === 20) {
   console.log('The user answered incorrectly with ' + question4);
 }
 
-var question5 = prompt('Is my favorite color red? Yes or No?').toLowerCase();
+var question5 = prompt('Is my favorite color red? Yes or no?').toLowerCase();
 
 if (question5 === 'yes' || question5 === 'y' || question5 === 'ye' || question5 === 'yeah') {
   alert('Correctomundo')

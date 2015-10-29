@@ -101,6 +101,14 @@ var question6 = parseInt(prompt('What is my favorite number?'));
     yes +=1;
   }
 }
+
+firstQuestion();
+secondQuestion();
+thirdQuestion();
+fourthQuestion();
+fifthQuestion();
+sixthQuestion();
+
 alert('Congratulations, you got ' + yes + ' out of 6 questions correct! Nice job!');
 alert('The correct answer for question 1 was yes! I did grow up in Washington.');
 alert('The answer for question 2 was yes! I love drumming and I have been drumming for 7 years!');

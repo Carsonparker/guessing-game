@@ -18,3 +18,9 @@ Ardian Ajvazi made changed to Carson's guessing game.
 driver: Ardian
 navigator: Carson
 
+
+We worked on the code together
+
+Driver: Donika Buca 
+Navigator: Carson Parker
+
